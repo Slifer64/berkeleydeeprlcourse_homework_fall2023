@@ -8,7 +8,7 @@ from cs285.envs import Pointmass
 import os
 import time
 
-import gym
+import gymnasium as gym
 import numpy as np
 import torch
 from cs285.infrastructure import pytorch_util as ptu

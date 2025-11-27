@@ -1,8 +1,8 @@
 import numpy as np
 from gym import utils
-from gym.envs.mujoco import mujoco_env
+from gymnasium.envs.mujoco import mujoco_env
 import os
-from gym.spaces import Box
+from gymnasium.spaces import Box
 import mujoco
 
 

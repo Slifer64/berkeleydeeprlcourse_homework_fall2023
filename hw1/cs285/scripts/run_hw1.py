@@ -8,8 +8,8 @@ Functions to edit:
 import pickle
 import os
 import time
-import gym
-
+import gymnasium as gym
+from gymnasium.envs.registration import EnvSpec as GymEnvSpec
 import numpy as np
 import torch
 

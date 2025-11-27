@@ -2,7 +2,7 @@ from typing import Callable, Optional, Tuple
 import numpy as np
 import torch.nn as nn
 import torch
-import gym
+import gymnasium as gym
 from cs285.infrastructure import pytorch_util as ptu
 
 

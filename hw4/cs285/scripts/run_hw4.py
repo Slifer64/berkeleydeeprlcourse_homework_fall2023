@@ -13,7 +13,7 @@ import cs285.env_configs
 import os
 import time
 
-import gym
+import gymnasium as gym
 import numpy as np
 import torch
 from cs285.infrastructure import pytorch_util as ptu

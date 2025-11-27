@@ -1,9 +1,9 @@
 import numpy as np
-import gym
+import gymnasium as gym
 from gym import spaces
-from gym.wrappers.frame_stack import FrameStack
-from gym.wrappers.atari_preprocessing import AtariPreprocessing
-from gym.wrappers.record_episode_statistics import RecordEpisodeStatistics
+from gymnasium.wrappers.frame_stack import FrameStack
+from gymnasium.wrappers.atari_preprocessing import AtariPreprocessing
+from gymnasium.wrappers.record_episode_statistics import RecordEpisodeStatistics
 
 
 class FireResetEnv(gym.Wrapper):
